@@ -13,6 +13,9 @@ URxvt*scrollBar: false
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
+!shift scrolling
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
 
 ! -----------------------------------------------------------------------------
 ! File: gruvbox-urxvt256.xresources
