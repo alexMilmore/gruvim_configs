@@ -2,6 +2,9 @@
 
 echo "Updating config files"
 
+echo "changing git editor to neovim"
+git config --global core.editor "nvim"
+
 echo "copying .Xresources (x server settings)"
 cp Xresources/.Xresources ~/.Xresources
 echo "updating .Xresources"
