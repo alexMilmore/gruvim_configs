@@ -15,3 +15,6 @@ cp i3/config ~/.config/i3/config
 
 echo "copying tmux config (terminal multiplexor settings)"
 cp tmux/tmux.conf ~/.tmux.conf
+
+echo "copying zsh shell config"
+cp zsh/zshrc ~/.zshrc
