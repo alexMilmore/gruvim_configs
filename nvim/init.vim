@@ -1,4 +1,3 @@
-
 "syntac highlighting
 syntax on
 

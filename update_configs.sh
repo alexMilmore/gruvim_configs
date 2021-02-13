@@ -2,6 +2,9 @@
 
 echo "Updating config files"
 
+echo "changing neovim configs"
+cp nvim/init.vim ~/.config/nvim/init.vim
+
 echo "changing git editor to neovim"
 git config --global core.editor "nvim"
 
