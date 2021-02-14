@@ -22,3 +22,13 @@ apt install feh -y
 
 # screenshots
 apt install scrot -y
+
+# fuzzy terminal finder https://github.com/junegunn/fzf
+git clone https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+# bat (better version of cat) https://github.com/junegunn/fzf.git
+cargo install bat
+
+# hexyl (better version of hd)
+cargo install hexyl
