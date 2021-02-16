@@ -27,6 +27,10 @@ apt install scrot -y
 git clone https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
+# install rust
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+
 # bat (better version of cat) https://github.com/junegunn/fzf.git
 cargo install bat
 
