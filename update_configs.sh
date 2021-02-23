@@ -21,3 +21,6 @@ cp tmux/tmux.conf ~/.tmux.conf
 
 echo "copying zsh shell config"
 cp zsh/zshrc ~/.zshrc
+
+echo "copying oh-my-zsh"
+cp -r oh-my-zsh ~/.oh-my-zsh
